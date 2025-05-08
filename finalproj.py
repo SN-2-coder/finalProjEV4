@@ -6,4 +6,4 @@ def main(page:ft.page):
     text= ft.Text("SKY MAP", size=30, color="blue", font_family="Georgia", italic=True, weight=ft.FontWeight.W_200)
     page.add(ft.Row([star,text,star],ft.MainAxisAlignment.CENTER),ft.Divider())
     
-    ft.app(target = main,assets_dir="assets")
+ft.app(target = main,assets_dir="assets")
